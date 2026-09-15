@@ -3,6 +3,7 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import IngresoMensualForm from './components/IngresoMensualForm'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +30,8 @@ function App() {
           Count is {count}
         </button>
       </section>
+
+      <IngresoMensualForm />
 
       <div className="ticks"></div>
 
