@@ -1,3 +1,4 @@
+import CrearViviendaForm from './components/CrearViviendaForm'
 import { useState } from 'react'
 import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
@@ -29,6 +30,8 @@ function App() {
           Count is {count}
         </button>
       </section>
+
+      <CrearViviendaForm />
 
       <div className="ticks"></div>
 
