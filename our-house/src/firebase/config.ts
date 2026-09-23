@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
@@ -53,6 +54,8 @@ const auth = getAuth(app);
 const db = getFirestore(app);
 export { app, analytics, auth, db };
 =======
+=======
+>>>>>>> origin/HU5
 import { initializeApp } from 'firebase/app'
 import { getFirestore } from 'firebase/firestore'
 
@@ -66,5 +69,9 @@ const firebaseConfig = {
 }
 
 const app = initializeApp(firebaseConfig)
+<<<<<<< HEAD
 export const db = getFirestore(app)
 >>>>>>> origin/HU4
+=======
+export const db = getFirestore(app)
+>>>>>>> origin/HU5
